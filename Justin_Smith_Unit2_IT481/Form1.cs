@@ -30,7 +30,23 @@ namespace Justin_Smith_Unit2_IT481
             SqlDataAdapter da = new SqlDataAdapter(command);
             DataTable dt = new DataTable();
             da.Fill(dt);
+            ConnectionBox.Text = "Connection Successfull";
             connection.Close();
+        }
+
+        private void Form1_load(object sender, EventArgs e)
+        {
+            ConnectionBox.Text = "Starting Up...";
+            try
+            {
+                SqlConnection connection = new SqlConnection(@"Data source = (local)\SQLEXPRESS01; Initial Catalog=Northwind; Integrated Security=True;");
+                connection.Open();
+                ConnectionBox.Text = "Connection Successful";
+                connection.Close();
+            }catch (Exception ex)
+            {
+                ConnectionBox.Text = "Error, " + ex;
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

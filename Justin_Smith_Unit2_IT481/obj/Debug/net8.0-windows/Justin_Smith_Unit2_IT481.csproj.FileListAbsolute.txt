@@ -22,3 +22,4 @@ C:\Users\steel\source\repos\Justin_Smith_Unit2_IT481\Justin_Smith_Unit2_IT481\bi
 C:\Users\steel\source\repos\Justin_Smith_Unit2_IT481\Justin_Smith_Unit2_IT481\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\steel\source\repos\Justin_Smith_Unit2_IT481\Justin_Smith_Unit2_IT481\obj\Debug\net8.0-windows\Justin_Smith_Unit2_IT481.csproj.AssemblyReference.cache
 C:\Users\steel\source\repos\Justin_Smith_Unit2_IT481\Justin_Smith_Unit2_IT481\obj\Debug\net8.0-windows\Justin_Smith_Unit2_IT481.csproj.CopyComplete
+C:\Users\steel\source\repos\Justin_Smith_Unit2_IT481\Justin_Smith_Unit2_IT481\obj\Debug\net8.0-windows\Justin_Smith_Unit2_IT481.sourcelink.json
