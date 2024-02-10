@@ -56,7 +56,15 @@ namespace Justin_Smith_Unit2_IT481
 
         private void RecordCount_Click(object sender, EventArgs e)
         {
-
+            SqlCommand command = new SqlCommand();
+            SqlConnection connection = new SqlConnection(@"Data source = (local)\SQLEXPRESS01; Initial Catalog=Northwind; Integrated Security=True;");
+            connection.Open();
+            ConnectionBox.Text = "Counting Records...";
+            command.Connection = connection;
+            command.CommandText = "select count(*) from Customers";
+            int count = (int)command.ExecuteScalar();
+            ConnectionBox.Text = "Number of Records: " + count;
+            connection.Close();
         }
 
         private void richTextBox2_TextChanged(object sender, EventArgs e)
