@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Justin_Smith_Unit2_IT481")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+834cc05128a228e646bbee10ac36288f160db3a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88a38c169b16946781e8cc1c19f3578a05c92352")]
 [assembly: System.Reflection.AssemblyProductAttribute("Justin_Smith_Unit2_IT481")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Justin_Smith_Unit2_IT481")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -30,6 +30,7 @@ namespace Justin_Smith_Unit2_IT481
             SqlDataAdapter da = new SqlDataAdapter(command);
             DataTable dt = new DataTable();
             da.Fill(dt);
+            dataGridView1.DataSource = dt;
             ConnectionBox.Text = "Connection Successfull";
             connection.Close();
         }
