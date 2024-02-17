@@ -1,0 +1,12 @@
+USE [master]
+GO
+CREATE LOGIN [User_Sales] WITH PASSWORD=N'sales123' MUST_CHANGE, DEFAULT_DATABASE=[Northwind], CHECK_EXPIRATION=ON, CHECK_POLICY=ON
+GO
+USE [Northwind]
+GO
+CREATE USER [User_Sales] FOR LOGIN [User_Sales]
+GO
+USE [Northwind]
+GO
+ALTER ROLE [SalesRole] ADD MEMBER [User_Sales]
+GO

@@ -1,0 +1,8 @@
+CREATE ROLE CEORole;  
+GO  
+
+CREATE ROLE HRRole;  
+GO  
+
+CREATE ROLE SalesRole;  
+GO  
